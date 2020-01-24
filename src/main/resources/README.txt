@@ -17,4 +17,4 @@ JAVA_HOME11=C:\Program Files\Java\jdk-e11.0.6
 
 Amend Advanced system settings / Environment Variables / JAVA_HOME to switch between 8 and 11
 
-
+4. Annotation Processors / Enable Annotation Processing

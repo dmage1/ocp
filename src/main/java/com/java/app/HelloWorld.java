@@ -1,14 +1,17 @@
 package com.java.app;
 
+import lombok.extern.java.Log;
+
+@Log
 public class HelloWorld {
 
   public static void main(String[] args) {
 
     // Prints "Hello, World" in the terminal window.
-    System.out.println("\nHello, World");
+    log.info("Hello, World");
 
     for (int i = 0; i < args.length; i++) {
-      System.out.printf("%narg %s = %s ", i, args[i]);
+      log.info(String.format("%narg %s = %s ", i, args[i]));
     }
   }
 }
