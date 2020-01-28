@@ -17,4 +17,19 @@ JAVA_HOME11=C:\Program Files\Java\jdk-e11.0.6
 
 Amend Advanced system settings / Environment Variables / JAVA_HOME to switch between 8 and 11
 
-4. Annotation Processors / Enable Annotation Processing
+4. Intellij Settings
+
+    Settings / Build, Execution, Deployment / Compiler / Annotation Processors / Enable annotation processing
+    Settings / Editor / General / Auto Import / Add unambiguous imports on the fly
+    Settings / Editor / General / Auto Import / Optimize imports on the fly (for current project)
+
+5. Create and execute jar files
+
+jar -cf MainTests.jar -C target/classes MainTests.class
+java -cp Maintests.jar MainTests
+
+-- with manifest file
+
+jar -cfm MainTests.jar manifest.txt -C target/classes MainTests.class
+java -jar MainTests.jar
+

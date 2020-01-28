@@ -1,9 +1,7 @@
-package com.java.app;
-
 import lombok.extern.java.Log;
 
 @Log
-public class HelloWorld {
+public class HelloWorld { // java -cp target/classes HelloWorld
 
   public static void main(String[] args) {
 
