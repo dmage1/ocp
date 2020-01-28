@@ -25,10 +25,21 @@ Amend Advanced system settings / Environment Variables / JAVA_HOME to switch bet
 
 5. Create and execute jar files
 
-jar -cf MainTests.jar -C target/classes MainTests.class
-java -cp Maintests.jar MainTests
+jar -cf section2.MainTests.jar -C target/classes section2.MainTests.class
+java -cp Maintests.jar section2.MainTests
 
 -- with manifest file
 
-jar -cfm MainTests.jar manifest.txt -C target/classes MainTests.class
-java -jar MainTests.jar
+jar -cfm section2.MainTests.jar manifest.txt -C target/classes section2.MainTests.class
+java -jar section2.MainTests.jar
+
+6. Why Java?
+
+Java is derived from C, C+ but simplified.
+Java is Architecture neutral.
+Java is Object Orientated Language.
+Java is Statically typed.
+Java is a dynamic programming language.
+Java supports Multi-threaded processing.
+Distributed Computing is supported by Java.
+Memory management is handled by the Java environment and not the developer.

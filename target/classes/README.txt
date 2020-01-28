@@ -32,4 +32,3 @@ java -cp Maintests.jar MainTests
 
 jar -cfm MainTests.jar manifest.txt -C target/classes MainTests.class
 java -jar MainTests.jar
-

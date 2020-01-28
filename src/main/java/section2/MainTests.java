@@ -1,9 +1,11 @@
+package section2;
+
 /*
 Learn Programming Academy's Java 1Z0-815 Certification Exam Course
 Section 2: Create an executable Java program
 */
 
-public class MainTests { // java -cp target/classes MainTests
+public class MainTests { // java -cp target/classes section2.MainTests
 
   // Executable main method
   public static void main(String... args) throws Exception {
