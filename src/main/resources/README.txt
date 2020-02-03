@@ -43,3 +43,7 @@ Java is a dynamic programming language.
 Java supports Multi-threaded processing.
 Distributed Computing is supported by Java.
 Memory management is handled by the Java environment and not the developer.
+
+7.
+
+Primitive values cannot be set to null.
