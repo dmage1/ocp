@@ -109,3 +109,7 @@ e
 5src/main/java/section3/StringBuilderManipulation.java,9\e\9e67b4cc1afdfd52e01a828dd9f9333e27021186
 _
 /src/main/java/section3/StringBuilderExtras.java,5\2\522aef17080feb54a31dc16b7d2ff0f98c222b88
+Y
+)src/main/java/section4/UnaryOperator.java,e\1\e13160ee3859967211c16620935de74404142558
+]
+-src/main/java/section4/UnaryOperatorMore.java,e\d\ed1d4ae4e7b76a2412eb95b401cd530efc7e67f4
