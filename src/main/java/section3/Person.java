@@ -7,6 +7,7 @@ Topic: Identify the Scope of a variable.
 public class Person {
 
   static String name = "UNKNOWN";  // Class Variable
+  static String address = "UNKNOWN";  // Class Variable
   String instanceName = "UNKNOWN"; // Instance Variable;
   String age = "25";  // Instance Variable initialized;
 
@@ -41,6 +42,12 @@ public class Person {
     // Also setting static variable name in same assignment
     // statement
     this.instanceName = Person.name = name;
+  }
+
+  // Three Args Constructor
+  public Person(String name, String address, String age) {
+    this(name, age);
+    this.address = address;
   }
 
   // Simple setter for age

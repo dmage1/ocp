@@ -16,7 +16,6 @@ public class Test {
     for (int b : bArray) {  // Line 2
       System.out.print(b + " ");  // Line 3
     }
-
   }
 
   public static void main2(String[] args) {
