@@ -47,3 +47,14 @@ Memory management is handled by the Java environment and not the developer.
 7.
 
 Primitive values cannot be set to null.
+
+8. Java Modules
+
+java --list-modules
+java --describe-module java.sql
+jdeps --print-module-deps -m java.sql
+jdeps --print-module-deps -module java.sql
+jdeps --list-reduced-deps --module java.sql
+jdeps --list-deps --module java.sql
+
+java --module-path . --module MyFirstModule
